@@ -1,0 +1,1192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DaGe</title>
+    <link rel="icon" href="img/newicon.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">
+                    <img src="img/newicon.png" alt="DaGe Logo" width="32" height="32">
+                    <div class="logo-text">
+                        <span>DaGe</span>
+                        <small class="subtitle">
+                            <div>Rice-Noodle-BBQ Meat</div>
+                            <div>Hong Kong style</div>
+                        </small>
+                    </div>
+                </a>
+                <div class="menu-toggle" id="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#reservation">More Details </a></li>
+                </ul>
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+    <!-- ...existing code... -->
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+    <video class="hero-bg-video" autoplay muted loop playsinline>
+        <source src="img/video01.mp4" type="video/mp4">
+    </video>
+    <div class="container">
+        <div class="hero-content">
+            <h1> DaGe USES SLOW-COOKED</h1>
+            <div class="hero-buttons">
+                
+                <a href="#menu" class="btn">View Menu</a>
+                <a href="#reservation" class="btn">Reserve a Table</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- <- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">Our Food Style</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>DaGe USES SLOW-COOKED</h2>
+                    <p>boath made from pork and chicken bones, combined with Sichuan Leshan ancient secret recipe soup base. Accompanied by Hong Kong chef's selected special ingredients, DaGe's rice noodles stand out with unique characters and flavours.</p>
+                    <a href="#reservation" class="btn">Book a Table</a>
+                </div>
+                <div class="about-image">
+                    <img src="img/backgroundimage.jpeg" alt="Restaurant Interior">
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <h2 class="section-title">Our Menu</h2>
+            <div class="menu-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="hkbbq">Hong Kong Style Barbecue Meat</button>
+                <button class="filter-btn" data-filter="mains">SIGNATURE RICE NOODLES</button>
+                <button class="filter-btn" data-filter="starters">Starters</button>
+                <button class="filter-btn" data-filter="riceBowls">RICE BOWLS</button>
+                <button class="filter-btn" data-filter="skewers">Skewers</button>
+                <button class="filter-btn" data-filter="bubbleTea">Bubble Tea</button>
+                <button class="filter-btn" data-filter="desserts">Desserts</button>
+            </div>
+            <div class="menu-grid">
+                <div class="menu-item" data-category="mains">
+                    <img src="img/Honey Roasted Pork with Rice and Sunny Side-up Egg.JPG" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Honey Roasted Pork with Rice and Sunny Side-up Egg</h3>
+                            <span class="menu-item-price">$18</span>
+                        </div>
+                        <p>Honey roasted pork served with fragrant rice and a perfectly cooked sunny side-up egg.</p>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="mains">
+                    <img src="img/DaGe's Signature Rice Noodles.jpeg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>DaGe's Signature Rice Noodles</h3>
+                            <span class="menu-item-price">$24</span>
+                        </div>
+                        <p>Slow-cooked beef broth with handmade rice noodles, topped with fresh herbs and spices.</p>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="mains">
+                    <img src="img/Hainanese Chicken with Boiled Rice2.JPG" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Hainanese Chicken with Boiled Rice</h3>
+                            <span class="menu-item-price">$32</span>
+                        </div>
+                        <p>Poached chicken served with fragrant rice and a side of chili sauce.</p>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="mains">
+                    <img src="img/Omurice with Honey Roasted Pork Fried Rice.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Omurice with Honey Roasted Pork Fried Rice</h3>
+                            <span class="menu-item-price">$16</span>
+                        </div>
+                        <p>Omelette rice with honey roasted pork fried rice</p>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="mains">
+                    <img src="img/Pork & Prawn Wantons Soup.JPG" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Pork & Prawn Wantons Soup</h3>
+                            <span class="menu-item-price">$14</span>
+                        </div>
+                        <p>Pork and prawn wantons served in a flavorful broth with vegetables.</p>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="mains">
+                    <img src="img/DaGe Special.JPG" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>DaGe Special</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>DaGe Special</p>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="mains">
+                    <img src="img/DaGe Family.jpeg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Dage Family</h3>
+                            <span class="menu-item-price">$18</span>
+                        </div>
+                        <p>DaGe Family</p>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="mains">
+                    <img src="img/Beef in Black Bean Sauce with Boiled Rice.jpeg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Herb-Crusted Chicken</h3>
+                            <span class="menu-item-price">$24</span>
+                        </div>
+                        <p>Free-range chicken with rosemary and thyme, served with seasonal vegetables</p>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="mains">
+                    <img src="img/Beef Slices.JPG " alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Beef Slices</h3>
+                            <span class="menu-item-price">$32</span>
+                        </div>
+                        <p>Prime beef tenderloin wrapped in puff pastry with mushroom duxelles</p>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="mains">
+                    <img src="img/Beef Rolls with Pickled Vegetables Rice Noodles.JPG" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Beef Rolls with Pickled Vegetables</h3>
+                            <span class="menu-item-price">$12</span>
+                        </div>
+                        <p>Beef Rolls with Pickled Vegetable</p>
+                    </div>
+                </div>
+                
+                <div class="menu-item" data-category="starters">
+                    <img src="img/Pig Intestines with Pickled Vegetables Rice Noodles.jpeg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Pig Intestines with Pickled Vegetables</h3>
+                            <span class="menu-item-price">$14</span>
+                        </div>
+                        <p>Pig Intestines with Pickled Vegetables</p>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="starters">
+                    <img src="img/Pig Intestines with Pickled Vegetables Rice Noodles.jpeg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Pig Intestines with Pickled Vegetables</h3>
+                            <span class="menu-item-price">$14</span>
+                        </div>
+                        <p>Pig Intestines with Pickled Vegetables</p>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="starters">
+                    <img src="img/Pig Intestines with Pickled Vegetables Rice Noodles.jpeg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Pig Intestines with Pickled Vegetables</h3>
+                            <span class="menu-item-price">$14</span>
+                        </div>
+                        <p>Pig Intestines with Pickled Vegetables</p>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="starters">
+                    <img src="img/Pig Intestines with Pickled Vegetables Rice Noodles.jpeg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Pig Intestines with Pickled Vegetables</h3>
+                            <span class="menu-item-price">$14</span>
+                        </div>
+                        <p>Pig Intestines with Pickled Vegetables</p>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="starters">
+                    <img src="img/Pig Intestines with Pickled Vegetables Rice Noodles.jpeg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Pig Intestines with Pickled Vegetables</h3>
+                            <span class="menu-item-price">$14</span>
+                        </div>
+                        <p>Pig Intestines with Pickled Vegetables</p>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="starters">
+                    <img src="img/Pig Intestines with Pickled Vegetables Rice Noodles.jpeg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Pig Intestines with Pickled Vegetables</h3>
+                            <span class="menu-item-price">$14</span>
+                        </div>
+                        <p>Pig Intestines with Pickled Vegetables</p>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="starters">
+                    <img src="img/Pig Intestines with Pickled Vegetables Rice Noodles.jpeg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Pig Intestines with Pickled Vegetables</h3>
+                            <span class="menu-item-price">$14</span>
+                        </div>
+                        <p>Pig Intestines with Pickled Vegetables</p>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="starters">
+                    <img src="img/Pig Intestines with Pickled Vegetables Rice Noodles.jpeg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Pig Intestines with Pickled Vegetables</h3>
+                            <span class="menu-item-price">$14</span>
+                        </div>
+                        <p>Pig Intestines with Pickled Vegetables</p>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="starters">
+                    <img src="img/Pig Intestines with Pickled Vegetables Rice Noodles.jpeg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Pig Intestines with Pickled Vegetables</h3>
+                            <span class="menu-item-price">$14</span>
+                        </div>
+                        <p>Pig Intestines with Pickled Vegetables</p>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="starters">
+                    <img src="img/Pig Intestines with Pickled Vegetables Rice Noodles.jpeg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Pig Intestines with Pickled Vegetables</h3>
+                            <span class="menu-item-price">$14</span>
+                        </div>
+                        <p>Pig Intestines with Pickled Vegetables</p>
+                    </div>
+                </div>
+                
+                <div class="menu-item" data-category="starters">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+                </div>
+                 <div class="menu-item" data-category="starters">
+                    <img src="img/Pig Intestines with Pickled Vegetables Rice Noodles.jpeg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Pig Intestines with Pickled Vegetables</h3>
+                            <span class="menu-item-price">$14</span>
+                        </div>
+                        <p>Pig Intestines with Pickled Vegetables</p>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="starters">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+                </div>
+
+                 <div class="menu-item" data-category="starters">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+                </div>
+
+                 <div class="menu-item" data-category="starters">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+                </div>
+
+                 <div class="menu-item" data-category="starters">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>  
+            </div>
+
+             <div class="menu-item" data-category="starters">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+                </div>
+
+                 <div class="menu-item" data-category="starters">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="starters">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+
+        <div class="menu-item" data-category="starters">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="starters">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="starters">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="starters">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="starters">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="starters">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+
+        <div class="menu-item" data-category="starters">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="mains">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="mains">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="mains">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="mains">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="mains">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="mains">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="mains">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="mains">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="mains">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="mains">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="mains">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="mains">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="mains">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="mains">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="mains">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="mains">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="mains">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="mains">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="hkbbq">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="hkbbq">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="hkbbq">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="hkbbq">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="hkbbq">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="hkbbq">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="hkbbq">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="hkbbq">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="hkbbq">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="hkbbq">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="hkbbq">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="hkbbq">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="hkbbq">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="hkbbq">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="hkbbq">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="hkbbq">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="riceBowls">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="riceBowls">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="riceBowls">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="riceBowls">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="riceBowls">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="riceBowls">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="riceBowls">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="riceBowls">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="riceBowls">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="riceBowls">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="riceBowls">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="riceBowls">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="riceBowls">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="riceBowls">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="riceBowls">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="riceBowls">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="riceBowls">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="riceBowls">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="riceBowls">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="riceBowls">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="riceBowls">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="riceBowls">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="riceBowls">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="riceBowls">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="riceBowls">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+        <div class="menu-item" data-category="riceBowls">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+        </div>
+
+        </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <!-- Testimonials Section -->
+<section class="testimonials" id="testimonials">
+    <div class="container">
+        <h2 class="section-title">Inside DaGe</h2>
+        <div class="testimonials-container">
+            <div class="testimonial">
+                <img src="img/inside03.jpeg" class="testimonial-img" alt="">
+                <div class="testimonial-author">
+                    <div>
+                        <!-- <h4>Sarah Johnson</h4> -->
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <img src="img/inside02.jpeg" class="testimonial-img" alt="">
+                <div class="testimonial-author">
+                    <div>
+                        <!-- <h4>Michael Chen</h4> -->
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <img src="img/inside01.jpeg" class="testimonial-img" alt="">
+                <div class="testimonial-author">
+                    <div>
+                        <!-- <h4>Emily Rodriguez</h4> -->
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Reservation Section -->
+    <section class="reservation" id="reservation">
+        <div class="container">
+            <h2 class="section-title">Make a Reservation</h2>
+            <div class="reservation-form">
+                <form id="reservationForm">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" placeholder="Enter your phone number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Date</label>
+                        <input type="date" id="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Time</label>
+                        <input type="time" id="time" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="guests">Number of Guests</label>
+                        <select id="guests" required>
+                            <option value="">Select number of guests</option>
+                            <option value="1">1 Person</option>
+                            <option value="2">2 People</option>
+                            <option value="3">3 People</option>
+                            <option value="4">4 People</option>
+                            <option value="5">5 People</option>
+                            <option value="6">6 People</option>
+                            <option value="7">7+ People</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn">Book Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>DaGe</h3>
+                    <p>Rice-Noodle-BBQ Meat and Hong Kong style.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Opening Hours</h3>
+                    <ul>
+                        <li>Monday - Friday: 11am - 21:00pm</li>
+                        <li>Saturday: 11:30am - 21:30pm</li>
+                        <li>Sunday: 11:30am - 21:30pm</li>
+                        <!-- <li>Happy Hour: 4pm - 6pm Daily</li> -->
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"> </i> Unit 4 Brunswick Centre DaGe Claypot Noodle Russell Square London WC1N1AW</li>
+                        <li><i class="fas fa-phone"></i> (+44) 2037592387</li>
+                        <li><i class="fas fa-envelope"></i> dagenoodle@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 DaGe. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
